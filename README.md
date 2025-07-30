@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Nakul Mistry</h1>
 <p align="center">
-  🔧 Java Backend Engineer | 🧠 MTech CSE @ IIT Gandhinagar | 🚀 Full-Stack + Cloud + DevOps
+  🔧 Java Backend Engineer | 🧠 MTech CSE @ IIT Gandhinagar | GATE 2024 AIR 365 | 🚀 Full-Stack + Cloud + DevOps
 </p>
 
 ---
