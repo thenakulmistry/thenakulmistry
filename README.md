@@ -64,7 +64,7 @@
     - **Systematic Parameter Optimization:** Brute-force optimizer to find the most profitable strategy parameters.
     - **Automated Data Caching:** Fetches data from financial APIs and caches it locally to accelerate testing cycles.
     - **Performance Analytics:** Generates reports with key metrics like total return and win rate.
-- **📂 GitHub Repo:** [Link to RetroTrade Repository]
+- **📂 GitHub Repo:** [RetroTrade](https://www.github.com/thenakulmistry/RetroTrade)
 
 ---
 
