@@ -53,6 +53,19 @@
 - **Features**: User auth (JWT), admin role access, item/order management, responsive design
 - 🌐 **Live Demo**: [gauricooks.com](https://www.gauricooks.com)
 
+### 📈 RetroTrade: Quantitative Backtesting Engine
+>A command-line backtesting engine in Java for developing, testing, and optimizing quantitative trading strategies on historical market data. Designed with a modular architecture to facilitate rapid prototyping and rigorous analysis of trading alphas.
+
+- **Core Engine:** Java, Picocli (for CLI)
+- **Data Handling:** Apache Commons CSV, Gson
+- **Build/Dependencies:** Maven
+- **Features:**
+    - **Extensible Strategy Engine:** Pluggable interface for implementing custom alpha signals (e.g., Moving Average Crossover).
+    - **Systematic Parameter Optimization:** Brute-force optimizer to find the most profitable strategy parameters.
+    - **Automated Data Caching:** Fetches data from financial APIs and caches it locally to accelerate testing cycles.
+    - **Performance Analytics:** Generates reports with key metrics like total return and win rate.
+- **📂 GitHub Repo:** [Link to RetroTrade Repository]
+
 ---
 
 <!--#### 📊 Java Backtesting Engine
