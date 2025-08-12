@@ -10,7 +10,6 @@
 - 🎓 MTech student (AI specialization) at **IIT Gandhinagar** with a focus on backend engineering, cloud deployment, and system design.
 - 💻 I specialize in **Java + Spring Boot** for building scalable, secure backends, and have built & deployed full-stack applications from scratch.
 - 🧑‍🍳 Creator of **[gauricooks.com](https://www.gauricooks.com)** — a production-grade food ordering platform with CI/CD pipeline and cloud deployment.
-<!-- - 📈 Developed a **Java-based backtesting engine** to simulate and evaluate trading strategies — inspired by fintech firms like Graviton Research LLP.-->
 - 🌍 Open to **remote roles**, **freelance work**, and **high-growth backend/security/fintech opportunities**.
 
 ---
@@ -24,8 +23,15 @@
 
 **Backend & Databases:**  
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat&logo=spring-boot&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+![ChromaDB](https://img.shields.io/badge/Chroma-5B34E2?style=flat&logo=chroma&logoColor=white)
+
+**AI & ML:**  
+![LangChain](https://img.shields.io/badge/LangChain-8A2BE2?style=flat)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat&logo=ollama&logoColor=white)
+![Google AI](https://img.shields.io/badge/Google%20AI-4285F4?style=flat&logo=google&logoColor=white)
 
 **Frontend:**  
 ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
@@ -46,39 +52,23 @@
 
 - **Backend**: Java, Spring Boot, JWT, MongoDB  
 - **Frontend**: React, Tailwind CSS  
-- **DevOps**:
-  - Dockerized backend
-  - Deployed on **AWS EC2** with a full **CI/CD pipeline**
-  - Frontend hosted on **Cloudflare Pages**
-- **Features**: User auth (JWT), admin role access, item/order management, responsive design
+- **DevOps**: Dockerized backend, deployed on **AWS EC2** with a full **CI/CD pipeline**, and frontend hosted on **Cloudflare Pages**.
+- **Features**: User auth (JWT), admin role access, item/order management, responsive design.
 - 🌐 **Live Demo**: [gauricooks.com](https://www.gauricooks.com)
 
-### 📈 RetroTrade: Quantitative Backtesting Engine
->A command-line backtesting engine in Java for developing, testing, and optimizing quantitative trading strategies on historical market data. Designed with a modular architecture to facilitate rapid prototyping and rigorous analysis of trading alphas.
+#### 📈 RetroTrade: AI-Powered Quantitative Backtesting Engine
+> A high-performance backtesting engine fueled by a state-of-the-art RAG pipeline. It leverages local LLMs to derive trading signals from financial news, providing a powerful framework for developing and evaluating news-driven alpha strategies.
 
-- **Core Engine:** Java, Picocli (for CLI)
-- **Data Handling:** Apache Commons CSV, Gson
-- **Build/Dependencies:** Maven
-- **Features:**
-    - **Extensible Strategy Engine:** Pluggable interface for implementing custom alpha signals (e.g., Moving Average Crossover).
-    - **Systematic Parameter Optimization:** Brute-force optimizer to find the most profitable strategy parameters.
-    - **Automated Data Caching:** Fetches data from financial APIs and caches it locally to accelerate testing cycles.
-    - **Performance Analytics:** Generates reports with key metrics like total return and win rate.
+- **AI Service**: Python, FastAPI, LangChain, Ollama (for local LLMs), ChromaDB (Vector Store), Google AI Embeddings.
+- **Backtesting Engine**: Java 17+, Picocli (for CLI), Maven.
+- **Architecture**:
+    - **AI-Powered Signal Generation**: A Retrieval-Augmented Generation (RAG) pipeline derives `BUY/SELL/HOLD` signals from unstructured financial news.
+    - **Hybrid & Local-First AI**: Combines Google AI for embeddings with a local Ollama-served LLM (Gemma) for fast, private, and cost-effective inference.
+    - **Decoupled Microservices**: A Python FastAPI service for AI inference communicates with the Java backtester via a REST API.
+    - **Performance Analytics**: The Java engine calculates key quantitative metrics like Sharpe Ratio, Maximum Drawdown, and Win Rate.
 - **📂 GitHub Repo:** [RetroTrade](https://www.github.com/thenakulmistry/RetroTrade)
 
 ---
-
-<!--#### 📊 Java Backtesting Engine
-> A simulation tool for evaluating trading strategies in financial markets — optimized for modularity and performance.
-
-- Built in **Java**, focusing on OOP and real-time strategy simulation
-- Supports backtesting across historical data sets (CSV, API-based)
-- Architecture designed for easy plugin of new strategies
-- Ideal for quant research and fintech experimentation
-- 📄 Writeup / GitHub release coming soon
-
----
--->
 
 ### 🔥 Currently Exploring
 - 🔐 OAuth2, security audits, Spring Security deep dive
@@ -90,7 +80,7 @@
 
 ### 📫 Connect with Me
 
-- 🌐 [LinkedIn](https://www.linkedin.com/in/nakul7)
+- 🌐 [LinkedIn](https://www.linkedin.com/in/nakul-mistry/)
 - 📧 Email: 24210066@iitgn.ac.in  
 - 💼 [GauriCooks](https://www.gauricooks.com)
 
