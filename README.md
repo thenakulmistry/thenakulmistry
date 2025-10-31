@@ -9,7 +9,7 @@
 
 - 🎓 MTech student (AI specialization) at **IIT Gandhinagar** with a focus on backend engineering, cloud deployment, and system design.
 - 💻 I specialize in **Java + Spring Boot** for building scalable, secure backends, and have built & deployed full-stack applications from scratch.
-- 🧑‍🍳 Creator of **[gauricooks.com](https://www.gauricooks.com)** — a production-grade food ordering platform with CI/CD pipeline and cloud deployment.
+- 🧑‍🍳 Creator of **[gauricooks.com](https://www.gauricooks.com)** — a production-grade food ordering platform with secure payments, CI/CD pipeline, and cloud deployment.
 - 🌍 Open to **remote roles**, **freelance work**, and **high-growth backend/security/fintech opportunities**.
 
 ---
@@ -23,6 +23,8 @@
 
 **Backend & Databases:**  
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat&logo=spring-boot&logoColor=white)
+![Stripe](https://img.shields.io/badge/Stripe-626CD9?style=flat&logo=stripe&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
@@ -50,10 +52,10 @@
 #### 🧑‍🍳 [GauriCooks.com](https://www.gauricooks.com)
 > A full-stack recipe & food ordering platform with secure authentication, role-based access, admin dashboard, and modern UI.
 
-- **Backend**: Java, Spring Boot, JWT, MongoDB  
+- **Backend**: Java, Spring Boot, JWT, MongoDB, Redis, Stripe
 - **Frontend**: React, Tailwind CSS  
 - **DevOps**: Dockerized backend, deployed on **AWS EC2** with a full **CI/CD pipeline**, and frontend hosted on **Cloudflare Pages**.
-- **Features**: User auth (JWT), admin role access, item/order management, responsive design.
+- **Features**: Secure payment processing (Stripe), user auth (JWT with Redis session management), admin role access, item/order management, responsive design.
 - 🌐 **Live Demo**: [gauricooks.com](https://www.gauricooks.com)
 
 #### 📈 RetroTrade: AI-Powered Quantitative Backtesting Engine
@@ -81,8 +83,7 @@
 ### 📫 Connect with Me
 
 - 🌐 [LinkedIn](https://www.linkedin.com/in/nakul-mistry/)
-- 📧 Email: 24210066@iitgn.ac.in  
-- 💼 [GauriCooks](https://www.gauricooks.com)
+- 📧 Email: 24210066@iitgn.ac.in
 
 ---
 
