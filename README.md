@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Nakul Mistry</h1>
 <p align="center">
-  🔧 Java Backend Engineer | 🧠 MTech CSE @ IIT Gandhinagar | GATE 2024 AIR 365 | 🚀 Full-Stack + Cloud + DevOps
+  🔧 Backend Engineer | 🧠 MTech CSE @ IIT Gandhinagar | GATE 2024 AIR 365 | 🚀 Full-Stack + Cloud + DevOps
 </p>
 
 ---
@@ -8,7 +8,7 @@
 ### 👨‍💻 About Me
 
 - 🎓 MTech student (AI specialization) at **IIT Gandhinagar** with a focus on backend engineering, cloud deployment, and system design.
-- 💻 I specialize in **Java + Spring Boot** for building scalable, secure backends, and have built & deployed full-stack applications from scratch.
+- 💻 I specialize in  building scalable, secure backends, and have built & deployed full-stack applications from scratch.
 - 🌍 Open to **remote roles**, **freelance work**, and **high-growth backend/security/fintech opportunities**.
 
 ---
